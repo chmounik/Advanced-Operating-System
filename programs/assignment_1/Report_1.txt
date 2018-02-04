@@ -1,0 +1,10 @@
+1)
+Orphan Process: Process which remains running itself, where its parent process has finished or terminated.
+
+Zombie Process: Process that has completed execution but still has an entry in the process table so that the parent process can use it to read its child’s exit status.
+
+2)
+The exec system call replaces the current process image with a new process image which you have passed in as argument in exec function. The data, text and stack segment of the process except user area of process are replaced. Commonly a process generates a child process because it would like to transform the child process by changing the program code the child process is executing. After successful exec system call the execution does not return to the program which has invoked the call as everything would be overwritten including the image.
+
+
+

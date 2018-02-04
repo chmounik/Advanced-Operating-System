@@ -1,0 +1,5 @@
+1) The two things which I learned from this assignment is how to synchronise two parallel processes and also how to control the execution and where to terminate it. It was also helpful for me to learn different synchronising processes as I am new to this field
+
+2) One of the mistake was I was not able to coordinate the process printing the countdown so as to print in a descending order, as i was not providing the correct limiting condition. The other one was during my message passing method where I was telling to increment the roundnumber after sending the message which was making the 0th process to print the incorrect number.
+
+3) If I would restart the assignment I would first start studying different synchronisation process and then attempt the question, instead of diving into the question directly.
